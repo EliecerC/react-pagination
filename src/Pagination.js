@@ -3,7 +3,6 @@ import classnames from "classnames";
 
 
 const Pagination = props => {
-
     const {
         totalItems,
         activePage,
@@ -70,7 +69,7 @@ const Pagination = props => {
                         "pagination__back",
                         { "pagination--disabled": activePage === 1 }
                     )}>
-                    <a title="Anterior">
+                    <a title={props.prevTitle}>
                         <span></span>
                     </a>
                 </li>
@@ -84,7 +83,7 @@ const Pagination = props => {
                         "pagination__next",
                         { "pagination--disabled": activePage === pagesCount }
                     )}>
-                    <a title="Siguiente">
+                    <a title={props.nextTitle}>
                         <span></span>
                     </a>
                 </li>
@@ -97,6 +96,8 @@ Pagination.defaultProps = {
     activePage: 1,
     visiblePages: 10,
     itemsPerPage: 50,
+    nextTitle: "Next",
+    prevTitle: "Previous"
 };
 
 export default Pagination;
