@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Simple React Pagination",
   "main": "Pagination.js",
-  "repository": "https://github.com/EliecerC/react-pagination",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliecerC/react-pagination.git"
+  },
   "author": "Eliecer Chicott",
   "license": "MIT",
   "private": false,
@@ -13,5 +16,16 @@
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.12.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/EliecerC/react-pagination/issues"
+  },
+  "homepage": "https://github.com/EliecerC/react-pagination#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "pagination"
+  ]
 }
