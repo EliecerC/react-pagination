@@ -2,7 +2,7 @@
   "name": "react-pagination",
   "version": "1.0.0",
   "description": "Simple React Pagination",
-  "main": "Pagination.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "babel lib -d build",
     "lint": "eslint lib/**; exit 0",
