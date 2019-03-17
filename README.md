@@ -13,12 +13,11 @@ $ npm i react-paginacion_eliecerc --save
 
 # Props
 
-*required:
-  <strong>onChangePage</strong> - Callback handler for page changes that returns the index of the selected page.
-  <br />
+*required:<br />
+  <strong>onChangePage</strong> - Callback handler for page changes that returns the index of the selected page.<br />
   <strong>totalItems</strong> - Total amount of items.<br />
 
-not required:
+not required:<br />
   <strong>activePage</strong> - Current selected page - default: 1<br />
   <strong>visiblePages</strong> - Amount of visible pages for selection - default: 10<br />
   <strong>itemsPerPage</strong> - Amount of items per page - default: 50<br />
